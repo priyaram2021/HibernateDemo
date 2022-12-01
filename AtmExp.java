@@ -6,9 +6,9 @@ public class AtmExp
 	Scanner input = new Scanner (System.in);
 	int balance = 35000;
 	System.out.println("Enter your name:");
-	String a = input.nextLine();
+	String name = input.nextLine();
 	System.out.println("Enter your Password:");
-	int b = input.nextInt();
+	int pwd = input.nextInt();
 	System.out.println("Enter your option: \n1.Withdraw \n2.Deposit \n3.Balance \n4.Exit");
 	int option = input.nextInt();
 	switch(option)
