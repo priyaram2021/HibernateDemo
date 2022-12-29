@@ -4,7 +4,7 @@ public class AtmExp
   public static void main(String args[])
   {
 	Scanner input = new Scanner (System.in);
-	int balance = 400000;
+	int balance = 450000;
 	System.out.println("Enter your name:");
 	String name = input.nextLine();
 	System.out.println("Enter your Password:");
