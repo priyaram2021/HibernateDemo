@@ -11,6 +11,6 @@ class FactorialDemo
 	{
 		fact = fact*i;
     }
-	System.out.println("Factorial of " + number+"is" +fact);
+	System.out.println("Factorial of " + number+"is   :" +fact);
   }
 }  

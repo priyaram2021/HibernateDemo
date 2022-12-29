@@ -26,13 +26,13 @@ public class AtmExp
 			System.out.println("Enter your deposit amount");
 			int deposit = input.nextInt();
 			balance = deposit + balance;
-			//System.out.println(balance);
+			System.out.println(balance);
 			break;
 		case 3:
 			System.out.println(balance);
 			break;
 		case 4:
-			System.out.	println("Thankyou ,visit again");
+			System.out.println("Thankyou, visit again");
 			break;
 	}
   }
