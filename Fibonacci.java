@@ -16,8 +16,8 @@ class Fibonacci
 			i=j;
 			j=sum;
 			x++;
-			//temp=sum+j;
-			//System.out.println(temp);
+			temp=sum+j;
+			System.out.println(temp+":");
 		}
 	
 	}
